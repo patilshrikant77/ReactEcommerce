@@ -1,0 +1,44 @@
+@import "./styles/index.scss";
+body {
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.small {
+    color: #444;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.big {
+    color:#da2e17;
+    font-size: 1.3rem;
+    margin-right: 10px;
+    
+}
+.MuiCardActions-spacing .buy-price {
+    margin-left: auto!important;
+}
+.buy-price .price {
+    align-items: flex-start;
+    color: #333;
+    display: flex;
+}
+.buy-price .price h1 {
+    font-size: 2.1rem;
+    font-weight: 600;
+   
+}
+
